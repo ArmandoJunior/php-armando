@@ -1,0 +1,22 @@
+{
+    "name": "armandogsurf/php-armando",
+    "description": "'Learning about Design Patters - Strategy'",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Armando N Junior",
+            "email": "armandojrn@hotmail.com"
+        }
+    ],
+    "require": {
+        "rych/random": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Strategy\\": "strategy",
+            "Classes\\": "classes"
+        }
+    }
+}
